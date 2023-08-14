@@ -1,4 +1,6 @@
-### Hi there 👋
+### Hi there 👋.  It's me Shivang.🐱‍🏍
+![Intro](https://github.com/shivang21007/shivang21007/assets/98748694/7700ad7b-cdd7-4bf3-94fd-9ddb016f02cf)
+
 
 <!--
 **shivang21007/shivang21007** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
