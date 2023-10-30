@@ -1,5 +1,3 @@
-### Hi there 👋.  It's me Shivang.🐱‍🏍
-![Intro](./Intro.gif)
 
 [![An image of @shivang21007's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/shivang21007)](https://holopin.io/@shivang21007)
 <!--
