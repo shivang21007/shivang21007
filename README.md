@@ -1,19 +1,19 @@
 # 👋 Hi, I’m **Shivang**
-### DevOps Engineer | Backend Systems Enthusiast | Linux Internals Explorer
+### DevOps & DevSecOps Engineer | Site Reliability Enthusiast | Cloud Native Explorer
 
-I’m a DevOps-focused engineer who loves understanding systems from the ground up — not just *how to use them*, but *how they actually work underneath*.
+I’m a DevOps and SRE-focused engineer who loves building highly scalable and secure systems from the ground up.
 
-My core strength lies in infrastructure automation, container orchestration, observability, and backend systems design. I think in terms of processes, resource isolation, scaling behavior, and reliability — not just tools.
+My core strength lies in infrastructure automation, DevSecOps, container orchestration, and observability. I think in terms of reliability, security-first CI/CD, and scaling behavior — ensuring systems are deterministic and resilient.
 
 ---
 
 ## 🚀 Who I Am
 
-- 🛠 DevOps Engineer with strong backend foundations  
+- 🛠 DevOps & DevSecOps Engineer with strong backend foundations  
 - 🐧 Deeply interested in Linux internals & system-level behavior  
-- ⚙️ Obsessed with automation, reproducibility, and clean infrastructure  
+- ⚙️ Obsessed with automation, security-first CI/CD, and clean infrastructure  
 - 📊 Strong believer in observability-first architecture  
-- 🤖 Actively exploring AI systems, LLMs, and AI agents  
+- 🔐 Integrating 'Shift-Left' security into every stage of the SDLC  
 - 🧠 First-principles thinker — break down → understand → rebuild  
 
 📍 Delhi, India  
@@ -22,11 +22,10 @@ My core strength lies in infrastructure automation, container orchestration, obs
 
 ## 🔭 What I’m Currently Focused On
 
-- ⚙️ Kubernetes internals (scheduler, networking, resource isolation)
-- 🐧 Linux process management, namespaces & cgroups
-- ☁️ Cloud-native infrastructure & GitOps pipelines
-- 📡 Observability systems (metrics, logs, traces — end-to-end visibility)
-- 🤖 AI agents, LLM architectures, and real-world AI system design
+- ⚙️ Kubernetes internals & workload autoscaling (HPA)
+- ☁️ Cloud-native infrastructure & GitOps workflows (ArgoCD)
+- 🔐 Advanced DevSecOps automation & container security (Trivy, Snyk)
+- 📡 Observability systems (Prometheus, Grafana, OpenTelemetry)
 
 ---
 
@@ -34,12 +33,13 @@ My core strength lies in infrastructure automation, container orchestration, obs
 
 | Domain | Tools / Technologies |
 |--------|----------------------|
-| **DevOps & Automation** | Terraform, Ansible, GitHub Actions, CI/CD, GitOps |
-| **Containers & Orchestration** | Docker, Kubernetes |
-| **Observability** | Prometheus, Grafana, OpenTelemetry |
-| **Backend & Systems** | C, Python, TypeScript |
+| **DevOps & Automation** | Terraform, Ansible, GitHub Actions, CI/CD, GitOps, ArgoCD |
+| **DevSecOps & Security**| Trivy, Snyk, Gitleaks, Hadolint, SAST, Image Hardening |
+| **Containers & Orchestration** | Docker, Kubernetes, Docker Compose |
+| **Observability** | Prometheus, Grafana, OpenTelemetry, Loki |
+| **Backend & Systems** | Golang, C, Python, TypeScript, MySQL, Redis |
 | **Scripting & Infra Config** | Bash, YAML |
-| **Cloud & Infrastructure** | Infrastructure as Code, scalable deployments |
+| **Cloud & Infrastructure** | AWS (EC2, S3, IAM, Route53), Infrastructure as Code |
 
 ---
 
@@ -63,32 +63,51 @@ Infrastructure should be:
 
 ## 🛠 Languages & Tools
 
-![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-121011?logo=gnubash&logoColor=white)
 ![YAML](https://img.shields.io/badge/YAML-CB171E?logo=yaml&logoColor=white)
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?logo=amazon-aws&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-623CE4?logo=terraform&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?logo=ansible&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?logo=argo&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?logo=opentelemetry&logoColor=white)
+![Golang](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
+![Trivy](https://img.shields.io/badge/Trivy-000000?logo=security&logoColor=white)
+
+---
+
+## 🚀 Featured Projects
+
+### [SkillPulse → 3-Tier App with Kubernetes CI/CD Pipeline](https://devops.shivanggupta.in:8443/)
+- **Stack:** Golang, MySQL, HTML/CSS/JS, Kubernetes, GitHub Actions
+- **Highlights:** Aggressively optimized Docker images via multi-stage builds (reducing frontend from 92MB→20MB, backend 34MB→12MB). Fully automated CI/CD with security gates (golangci-lint, Gitleaks, govulncheck, Hadolint, Trivy). Rolling deployments with HPA autoscaling.
+
+### [2-Tier App with Automated CI/CD & Docker Compose](https://devops.shivanggupta.in:8443/)
+- **Stack:** React, Node.js, Docker Compose, GitHub Actions, VPS
+- **Highlights:** End-to-end automated pipeline incorporating DevSecOps principles. Remediated 19 High and 2 Critical vulnerabilities by hardening base images. Achieved zero-manual-step delivery flow: Code → CI Checks → Image Build → Scan → Deploy.
 
 ---
 
 ## 📚 What You’ll Find on My GitHub
 
-- 🔍 Deep dives into Linux and system behavior  
-- ⚙️ Infrastructure-as-Code projects  
-- ☁️ Kubernetes & container experiments  
-- 📡 Observability setups (metrics + traces + logs)  
-- 🤖 AI/LLM exploration projects  
-- 🧪 Experimental backend systems  
+- ⚙️ Infrastructure-as-Code (Terraform, AWS)
+- 🔐 DevSecOps CI/CD Pipelines (GitHub Actions)
+- ☁️ Kubernetes & GitOps setups  
+- 📡 Observability stacks (Prometheus, Grafana)
+- 🧪 Go and Python automation scripts
+
+---
+
+## 🏆 Licenses & Certifications
+
+- **Certified DevOps Engineer Associate** — TrainWithShubham (Issued May 2026, Credential ID: CRD-8FFHEZGG)
+- **DevOps - Zero To Hero (Josh Batch 10)** — TrainWithShubham (Issued May 2026, Credential ID: DIAAUXCX)
 
 ---
 
@@ -102,8 +121,8 @@ Infrastructure should be:
 
 ## 🌟 My Long-Term Goal
 
-To build highly reliable, deeply observable, and intelligently automated systems —  
-where infrastructure, backend engineering, and AI systems intersect.
+To build highly reliable, deeply observable, and highly secure cloud-native systems —  
+where infrastructure, SRE principles, and automated security intersect.
 
 ---
 
