@@ -16,7 +16,7 @@ My core strength lies in infrastructure automation, DevSecOps, container orchest
 - 🔐 Integrating 'Shift-Left' security into every stage of the SDLC  
 - 🧠 First-principles thinker — break down → understand → rebuild  
 
-📍 Delhi, India  
+📍 Noida, India  
 
 ---
 
@@ -24,8 +24,8 @@ My core strength lies in infrastructure automation, DevSecOps, container orchest
 
 - ⚙️ Kubernetes internals & workload autoscaling (HPA)
 - ☁️ Cloud-native infrastructure & GitOps workflows (ArgoCD)
-- 🔐 Advanced DevSecOps automation & container security (Trivy, Snyk)
-- 📡 Observability systems (Prometheus, Grafana, OpenTelemetry)
+- 🔐 Shift-left pipeline security & container scanning (Trivy, Gitleaks)
+- 📡 Observability & alerting (Prometheus, Alertmanager, Grafana, Loki)
 
 ---
 
@@ -33,10 +33,10 @@ My core strength lies in infrastructure automation, DevSecOps, container orchest
 
 | Domain | Tools / Technologies |
 |--------|----------------------|
-| **DevOps & Automation** | Terraform, Ansible, GitHub Actions, CI/CD, GitOps, ArgoCD |
-| **DevSecOps & Security**| Trivy, Snyk, Gitleaks, Hadolint, SAST, Image Hardening |
-| **Containers & Orchestration** | Docker, Kubernetes, Docker Compose |
-| **Observability** | Prometheus, Grafana, OpenTelemetry, Loki |
+| **DevOps & Automation** | Terraform, Ansible, GitLab CI, GitHub Actions, Jenkins, CI/CD, GitOps, Argo CD |
+| **Pipeline Security** | SAST, Dependency/CVE Scanning, Trivy, Gitleaks, Hadolint, Image Hardening |
+| **Containers & Orchestration** | Docker, Kubernetes (kubeadm), Helm, HPA, NGINX Ingress, Docker Compose |
+| **Observability & Reliability** | Prometheus, Alertmanager, Grafana, Loki, Incident Response, RCA, Runbooks |
 | **Backend & Systems** | Golang, C, Python, TypeScript, MySQL, Redis |
 | **Scripting & Infra Config** | Bash, YAML |
 | **Cloud & Infrastructure** | AWS (EC2, S3, IAM, Route53), Infrastructure as Code |
@@ -79,16 +79,22 @@ Infrastructure should be:
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
 ![Golang](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
 ![Trivy](https://img.shields.io/badge/Trivy-000000?logo=security&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?logo=helm&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?logo=gitlab&logoColor=white)
 
 ---
 
 ## 🚀 Featured Projects
 
-### [SkillPulse → 3-Tier App with Kubernetes CI/CD Pipeline](https://devops.shivanggupta.in:8443/)
+### [AWS EC2 Instance Manager → Scheduled Start/Stop for Dev Fleets](https://github.com/shivang21007/aws-ec2-instance-manager)
+- **Stack:** Python, AWS CLI, EC2, Cron
+- **Highlights:** Schedules startup and shutdown of 15 LTS dev instances across 5 environments, taking each from 168 to 45 running hours a week (~73% fewer idle compute hours). Ordered startup and shutdown (infra before app instances, reversed on stop) with a configurable settle delay. Reads live instance state before acting, so repeated cron runs are idempotent and safe to retry.
+
+### [SkillPulse → 3-Tier App with Kubernetes CI/CD Pipeline](https://github.com/shivang21007/github-actions-kubernetes-masterclass)
 - **Stack:** Golang, MySQL, HTML/CSS/JS, Kubernetes, GitHub Actions
 - **Highlights:** Aggressively optimized Docker images via multi-stage builds (reducing frontend from 92MB→20MB, backend 34MB→12MB). Fully automated CI/CD with security gates (golangci-lint, Gitleaks, govulncheck, Hadolint, Trivy). Rolling deployments with HPA autoscaling.
 
-### [2-Tier App with Automated CI/CD & Docker Compose](https://devops.shivanggupta.in:8443/)
+### [2-Tier App with Automated CI/CD & Docker Compose](https://github.com/shivang21007/github-actions-worksflows)
 - **Stack:** React, Node.js, Docker Compose, GitHub Actions, VPS
 - **Highlights:** End-to-end automated pipeline incorporating DevSecOps principles. Remediated 19 High and 2 Critical vulnerabilities by hardening base images. Achieved zero-manual-step delivery flow: Code → CI Checks → Image Build → Scan → Deploy.
 
@@ -115,7 +121,7 @@ Infrastructure should be:
 
 🐙 GitHub: https://github.com/shivang21007  
 🔗 LinkedIn: https://linkedin.com/in/shivang21007  
-📍 Delhi, India  
+📍 Noida, India  
 
 ---
 
